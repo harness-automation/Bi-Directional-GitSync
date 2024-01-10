@@ -1,0 +1,31 @@
+---
+pipeline:
+  projectIdentifier: "AmitTest"
+  orgIdentifier: "default"
+  tags: {}
+  stages:
+  - stage:
+      name: "S12"
+      identifier: "S12"
+      description: ""
+      type: "Custom"
+      spec:
+        execution:
+          steps:
+          - step:
+              type: "ShellScript"
+              name: "ShellScript_1"
+              identifier: "ShellScript_1"
+              spec:
+                shell: "Bash"
+                executionTarget: {}
+                source:
+                  type: "Inline"
+                  spec:
+                    script: "echo 'hello123'"
+                environmentVariables: []
+                outputVariables: []
+              timeout: "10m"
+      tags: {}
+  identifier: "test_gitwebhook_sync_Clone"
+  name: "test gitwebhook sync - Clone"
