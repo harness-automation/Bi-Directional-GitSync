@@ -21,7 +21,7 @@ pipeline:
                     source:
                       type: Inline
                       spec:
-                        script: echo 'hello123sdsxcxcxcxc'
+                        script: echo 'hello123sdsxcxcxcxcdsdvcxv'
                     environmentVariables: []
                     outputVariables: []
                   timeout: 10m
