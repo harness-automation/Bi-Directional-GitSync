@@ -1,1 +1,1 @@
-hello i am testing git sync file status
+hello i am testing git sync update file status
