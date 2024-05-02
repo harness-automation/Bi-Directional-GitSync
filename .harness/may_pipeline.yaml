@@ -1,0 +1,22 @@
+pipeline:
+  name: 2may pipeline
+  identifier: may_pipeline
+  projectIdentifier: amit
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: ss
+        identifier: ss
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Wait
+                  name: Wait_1
+                  identifier: Wait_1
+                  spec:
+                    duration: 10m
+        tags: {}
