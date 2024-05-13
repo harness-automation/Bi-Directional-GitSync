@@ -8,7 +8,7 @@ pipeline:
     - stage:
        name: S12
        identifier: S12
-       description: ""
+       description: "abc"
        type: Custom
        spec:
          execution:
