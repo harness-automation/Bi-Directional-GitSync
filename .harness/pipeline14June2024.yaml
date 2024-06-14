@@ -1,0 +1,22 @@
+pipeline:
+  name: pipeline14June2024
+  identifier: pipeline14June2024
+  projectIdentifier: AmitTest2
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  name: step1
+                  identifier: step1
+                  template:
+                    templateRef: account.GitsyncTemplate_MvYzU
+                    versionLabel: v3
+        tags: {}
