@@ -18,7 +18,7 @@ pipeline:
                   identifier: step1
                   template:
                     templateRef: account.GitsyncTemplate_MvYzU
-                    versionLabel: v3
+                    versionLabel: v2
                     templateInputs:
                       type: ShellScript
                       spec:
