@@ -19,4 +19,11 @@ pipeline:
                   template:
                     templateRef: account.GitsyncTemplate_MvYzU
                     versionLabel: v3
+                    templateInputs:
+                      type: ShellScript
+                      spec:
+                        source:
+                          type: Inline
+                          spec:
+                            script: <+input>
         tags: {}
