@@ -1,0 +1,18 @@
+template:
+  name: GitsyncTemplate_S9t7u
+  identifier: GitsyncTemplate_S9t7u
+  versionLabel: v3
+  type: Step
+  tags: {}
+  spec:
+    timeout: 10m
+    type: ShellScript
+    spec:
+      shell: Bash
+      onDelegate: true
+      source:
+        type: Inline
+        spec:
+          script: echo Hello
+      environmentVariables: []
+      outputVariables: []
