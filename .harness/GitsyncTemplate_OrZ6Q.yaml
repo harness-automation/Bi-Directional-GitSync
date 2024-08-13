@@ -1,0 +1,18 @@
+template:
+  name: GitsyncTemplate_OrZ6Q
+  identifier: GitsyncTemplate_OrZ6Q
+  versionLabel: v3
+  type: Step
+  tags: {}
+  spec:
+    timeout: 10m
+    type: ShellScript
+    spec:
+      shell: Bash
+      onDelegate: true
+      source:
+        type: Inline
+        spec:
+          script: echo Hello
+      environmentVariables: []
+      outputVariables: []
