@@ -1,0 +1,18 @@
+template:
+  name: GitsyncTemplate_iTU5P
+  identifier: GitsyncTemplate_iTU5P
+  versionLabel: v3
+  type: Step
+  tags: {}
+  spec:
+    timeout: 10m
+    type: ShellScript
+    spec:
+      shell: Bash
+      onDelegate: true
+      source:
+        type: Inline
+        spec:
+          script: echo Hello
+      environmentVariables: []
+      outputVariables: []
