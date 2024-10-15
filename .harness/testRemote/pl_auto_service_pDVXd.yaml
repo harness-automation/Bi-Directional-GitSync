@@ -1,0 +1,9 @@
+service:
+  name: pl_auto_service_pDVXd
+  identifier: pl_auto_service_pDVXd
+  orgIdentifier: Simlified_Git_sync
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
