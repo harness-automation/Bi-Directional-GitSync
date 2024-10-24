@@ -1,0 +1,18 @@
+template:
+  name: GitsyncTemplate_oFL42
+  identifier: GitsyncTemplate_oFL42
+  versionLabel: v3
+  type: Step
+  tags: {}
+  spec:
+    timeout: 10m
+    type: ShellScript
+    spec:
+      shell: Bash
+      onDelegate: true
+      source:
+        type: Inline
+        spec:
+          script: echo Hello
+      environmentVariables: []
+      outputVariables: []
