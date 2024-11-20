@@ -1,4 +1,0 @@
-environment:
-  name: env1_bidirectional_test
-  identifier: env1_bidirectional_test
-  type: PreProduction
