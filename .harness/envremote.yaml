@@ -1,4 +1,0 @@
-environment:
-  name: env-remote
-  identifier: envremote
-  type: PreProduction
