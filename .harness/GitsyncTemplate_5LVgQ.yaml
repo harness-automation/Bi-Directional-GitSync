@@ -1,0 +1,18 @@
+template:
+  name: GitsyncTemplate_5LVgQ
+  identifier: GitsyncTemplate_5LVgQ
+  versionLabel: v3
+  type: Step
+  tags: {}
+  spec:
+    timeout: 10m
+    type: ShellScript
+    spec:
+      shell: Bash
+      onDelegate: true
+      source:
+        type: Inline
+        spec:
+          script: echo Hello
+      environmentVariables: []
+      outputVariables: []
