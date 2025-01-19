@@ -1,0 +1,18 @@
+template:
+  name: GitsyncTemplate_T0pbu
+  identifier: GitsyncTemplate_T0pbu
+  versionLabel: v3
+  type: Step
+  tags: {}
+  spec:
+    timeout: 10m
+    type: ShellScript
+    spec:
+      shell: Bash
+      onDelegate: true
+      source:
+        type: Inline
+        spec:
+          script: echo Hello
+      environmentVariables: []
+      outputVariables: []
