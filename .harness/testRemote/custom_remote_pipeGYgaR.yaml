@@ -1,0 +1,22 @@
+pipeline:
+  name: custom_remote_pipeGYgaR
+  identifier: custom_remote_pipeGYgaR
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  name: ss
+                  identifier: ss
+                  template:
+                    templateRef: shell_scriptWp7kl
+                    versionLabel: v1
+        tags: {}
