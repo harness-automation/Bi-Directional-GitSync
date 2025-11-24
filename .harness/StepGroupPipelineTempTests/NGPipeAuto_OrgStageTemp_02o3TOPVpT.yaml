@@ -1,0 +1,18 @@
+template:
+  name: NGPipeAuto_OrgStageTemp_02o3TOPVpT
+  identifier: NGPipeAuto_OrgStageTemp_02o3TOPVpT
+  versionLabel: Org_Stage
+  type: Stage
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - stepGroup:
+              name: Referenced_Step_Group_Template
+              identifier: Referenced_Step_Group_Template
+              template:
+                templateRef: account.NGPipeAuto_AcctStepGroupTempSN65UC9tLX
+                versionLabel: Acct_StepGroup_v1
