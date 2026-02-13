@@ -1,0 +1,18 @@
+template:
+  name: GitsyncTemplate_xX7pp
+  identifier: GitsyncTemplate_xX7pp
+  versionLabel: v3
+  type: Step
+  tags: {}
+  spec:
+    timeout: 10m
+    type: ShellScript
+    spec:
+      shell: Bash
+      onDelegate: true
+      source:
+        type: Inline
+        spec:
+          script: echo Hello
+      environmentVariables: []
+      outputVariables: []
