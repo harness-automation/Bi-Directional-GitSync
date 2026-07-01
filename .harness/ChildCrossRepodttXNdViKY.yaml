@@ -1,0 +1,30 @@
+pipeline:
+  name: childPipelineNonDefaultBranch
+  identifier: childPipelineNonDefaultBranch
+  projectIdentifier: pro
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: ChildStage
+        identifier: ChildStage
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: EchoBranch
+                  identifier: EchoBranch
+                  spec:
+                    shell: Bash
+                    onDelegate: true
+                    source:
+                      type: Inline
+                      spec:
+                        script: exit 0
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: 10m
+        tags: {}
